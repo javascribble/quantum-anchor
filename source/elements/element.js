@@ -1,11 +1,12 @@
+import { Component, template, define } from '../import.js';
 import html from '../templates/anchor.js';
 
-export class Anchor extends quantum.Component {
+export class Anchor extends Component {
     constructor() {
         super();
     }
 
-    static template = quantum.template(html);
+    static template = template(html);
 }
 
-quantum.define('quantum-anchor', Anchor);
+define('quantum-anchor', Anchor);
