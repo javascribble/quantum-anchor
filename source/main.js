@@ -1,1 +1,3 @@
-export * from './elements/element.js';
+import * as anchor from './elements/anchor.js';
+
+Object.assign(window, anchor);
