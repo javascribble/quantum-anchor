@@ -1,5 +1,7 @@
 import html from '../templates/anchor.js';
 
+const { Component, template, define } = quantum;
+
 export class Anchor extends Component {
     constructor() {
         super();
