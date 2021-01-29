@@ -1,3 +1,3 @@
-import * as anchor from './elements/anchor.js';
+import { Anchor } from './elements/anchor.js';
 
-Object.assign(quantum, anchor);
+Quantum.Anchor = Anchor
